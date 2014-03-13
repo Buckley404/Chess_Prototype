@@ -1,4 +1,7 @@
-package com.example.chess_prototype;
+package com.example.chess_prototype.activities;
+
+import com.example.chess_prototype.R;
+import com.example.chess_prototype.R.layout;
 
 import android.os.Bundle;
 import android.app.Activity;

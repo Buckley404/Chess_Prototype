@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.chess_prototype.MainActivity"
+            android:name="com.example.chess_prototype.activities.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,19 +23,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.chess_prototype.Game"
+            android:name="com.example.chess_prototype.activities.Game"
             android:label="@string/title_activity_game" >
         </activity>
         <activity
-            android:name="com.example.chess_prototype.Practice"
+            android:name="com.example.chess_prototype.activities.Practice"
             android:label="@string/title_activity_practice" >
         </activity>
         <activity
-            android:name="com.example.chess_prototype.Settings"
+            android:name="com.example.chess_prototype.activities.Settings"
             android:label="@string/title_activity_settings" >
         </activity>
         <activity
-            android:name="com.example.chess_prototype.Leaderboard"
+            android:name="com.example.chess_prototype.activities.Leaderboard"
             android:label="@string/title_activity_leaderboard" >
         </activity>
     </application>
