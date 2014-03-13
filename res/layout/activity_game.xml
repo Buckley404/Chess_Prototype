@@ -1,0 +1,244 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Game" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="8" >
+
+        <ImageView
+            android:id="@+id/topPiece1"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/topPiece2"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+        <ImageView
+            android:id="@+id/topPiece3"
+            android:layout_column="2"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/topPiece4"
+            android:layout_column="3"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+        <ImageView
+            android:id="@+id/topPiece5"
+            android:layout_column="4"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/topPiece6"
+            android:layout_column="5"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+        <ImageView
+            android:id="@+id/topPiece7"
+            android:layout_column="6"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/topPiece8"
+            android:layout_column="7"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+        
+        <ImageView
+            android:id="@+id/topPawn1"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/topPawn2"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+        <ImageView
+            android:id="@+id/topPawn3"
+            android:layout_column="2"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/topPawn4"
+            android:layout_column="3"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+        <ImageView
+            android:id="@+id/topPawn5"
+            android:layout_column="4"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/topPawn6"
+            android:layout_column="5"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+        <ImageView
+            android:id="@+id/topPawn7"
+            android:layout_column="6"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/topPawn8"
+            android:layout_column="7"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.65"
+        android:src="@drawable/ic_launcher" />
+    
+     <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="8" >
+
+        <ImageView
+            android:id="@+id/bottomPiece1"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/bottomPiece2"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+        <ImageView
+            android:id="@+id/bottomPiece3"
+            android:layout_column="2"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/bottomPiece4"
+            android:layout_column="3"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+        <ImageView
+            android:id="@+id/bottomPiece5"
+            android:layout_column="4"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/bottomPiece6"
+            android:layout_column="5"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+        <ImageView
+            android:id="@+id/bottomPiece7"
+            android:layout_column="6"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/bottomPiece8"
+            android:layout_column="7"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+        
+        <ImageView
+            android:id="@+id/bottomPawn1"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/bottomPawn2"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+        <ImageView
+            android:id="@+id/bottomPawn3"
+            android:layout_column="2"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/bottomPawn4"
+            android:layout_column="3"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+        <ImageView
+            android:id="@+id/bottomPawn5"
+            android:layout_column="4"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/bottomPawn6"
+            android:layout_column="5"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+        <ImageView
+            android:id="@+id/bottomPawn7"
+            android:layout_column="6"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/bottomPawn8"
+            android:layout_column="7"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:src="@drawable/ic_launcher" />
+    </GridLayout>
+
+</LinearLayout>
